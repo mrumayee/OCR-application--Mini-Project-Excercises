@@ -7,7 +7,7 @@ while True:
     x,frame = cap.read()
     counter = counter + 1
      
-    if counter%n ==0 0
+    if counter%n ==0 
     :
         flipped =  cv2.flip(frame,-1) 
         cv2.imshow("image",flipped)
