@@ -4,9 +4,9 @@ import numpy as np
 cap = cv2.VideoCapture(0)
 
 def mouse(event, x, y, flags, param):
-	global
+	global  frame
 	if event == cv2.EVENT_LBUTTONDOWN:
-		print(frame[(x,y)])
+		print(frame[(y,x)])
 
 cv2.namedWindow("img")
 cv2.setMouseCallback("img", mouse)
