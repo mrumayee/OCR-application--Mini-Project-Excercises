@@ -14,7 +14,7 @@ my_image=np.zeros((),np.uint8)
 root = tk.Tk()
 
 def select_image():
-    filename = filedialog.askopenfilename(initialdir = "/Users/anishpawar/",title = 'Select an Image',filetypes = (('JPG','*.jpg'),('All files','*.*')))
+    filename = filedialog.askopenfilename(initialdir = "/Users/mrunmayee/",title = 'Select an Image',filetypes = (('JPG','*.jpg'),('All files','*.*')))
     print(filename)
     global og
     global my_image
